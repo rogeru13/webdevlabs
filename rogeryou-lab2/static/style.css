@@ -1,0 +1,48 @@
+
+* {
+  font-family: 'Roboto', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  padding:5px;
+  margin:5px;
+}
+
+#rogeryou {
+  background-color: rgb(218, 181, 181);
+}
+
+.nav {
+  text-decoration: none;
+  color:rgb(255, 143, 180);
+  margin-right: 15px;
+}
+
+th {
+  padding-top:12px;
+  padding-bottom:12px;
+  width:fit-content;
+  background-color: blanchedalmond;
+  color:rgb(202, 163, 74);
+}
+
+tr:nth-child(even) {
+  background-color: rgb(179, 178, 178);
+}
+
+tr:nth-child(odd) {
+  background-color: rgb(220, 220, 220);
+}
+
+form * {
+  display: block;
+  margin:auto;
+  text-align: center;
+}
+
+input[type=submit] {
+  padding:5px;
+  background-color: rgb(234, 148, 148);
+  color: rgb(172, 0, 0);
+  border-radius: 10px;
+  border-color:beige;
+}
