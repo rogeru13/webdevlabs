@@ -7,24 +7,28 @@
   <meta name="keywords" content="Carnegie Mellon University, Information Systems">
   <meta name="description" content="Roger You professional website">
   <title>Roger You</title>
-
+  <link rel="stylesheet" href="static/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <script defer src ="static/script.js"></script>
 </head>     
 <body style="font-family: Arial">
-  <header style="color:blue; background:lightblue">
-    <h1>Roger You</h1>
+  <header style="color:rgb(0, 0, 0); background:rgb(255, 255, 255)">
+    <h1 id = "rogeryou">Roger You</h1>
     <nav>
-      <a href = "index.html">Home </a>
-      <a href = "views/cv.html">CV</a>
-      <a href = "views/contact.html">Contact Me</a>
-      <a href = "views/fun.html">For Fun</a>
+      <a href = "index.html" class = "nav">Home </a>
+      <a href = "views/cv.html" class = "nav">CV</a>
+      <a href = "views/contact.html" class = "nav">Contact Me</a>
+      <a href = "views/fun.html" class = "nav">For Fun</a>
     </nav>
   </header>
 
   <div class = "main"> 
-    <h2>Hi, my name is Roger!</h2>
+    <h2 id="dynamicHeader">Hi, my name is Roger!</h2>
     <img src="static/main.png" 
          alt="cover photo" 
-         width="400" height="img">
+         width="400" height="220">
 
     <p id="intro"> I’m in this unique position where I have a huge 
       personal brand that follows me for interest in startup, and 
