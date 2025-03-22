@@ -82,14 +82,13 @@ function addYear() {
 
 addYear();
 
-
-function showList() {
-  const list = document.getElementById("hobbies");
-  const button = document.getElementById("showList");
+// function showList() {
+//   const list = document.getElementById("hobbies");
+//   const button = document.getElementById("showList");
   
-  list.style.display = "block";
-  button.style.display = "none";
-}
+//   list.style.display = "block";
+//   button.style.display = "none";
+// }
 
 $(document).ready(function() {
   $('.read-more-button').click(function() {
@@ -143,3 +142,11 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 });
+
+function getAdvice() {
+  fetch('https://api.adviceslip.com/advice')
+    .then(response => response.json())
+    .then(data => {
+      document.getElementById('adviceText').innerText = data.slip.advice;
+    });
+}

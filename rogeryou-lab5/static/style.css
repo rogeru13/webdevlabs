@@ -47,18 +47,18 @@ input[type=submit] {
   border-color:beige;
 }
 
-#hobbies {
+/* #hobbies {
   display: none;
   margin-top: 20px;
   padding-left: 20px;
-}
+} */
 
-#showList {
+/* #showList {
   border-radius: 10px;
   cursor: pointer;
   border: 1px;
   padding: 10px 20px;
-}
+} */
 
 .read-more-button, .read-less-button {
   color: rgb(234, 148, 148);
@@ -81,3 +81,67 @@ input[type=submit] {
   color: #333;
 }
 
+.funIMG {
+  border-radius: 100%;
+  width:300px;
+  border: 2px solid #ccc;
+}
+
+.container {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 500px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+#adviceText {
+  font-style: italic;
+  margin: 20px 0;
+  line-height: 1.5;
+  color: #555;
+}
+
+#adviceButton {
+  padding: 10px 20px;
+  background-color: rgb(234, 148, 148);
+  color: rgb(172, 0, 0);
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+#adviceButton:hover {
+  background-color: rgb(214, 128, 128);
+}
+
+.mainLayout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+#item1, #item2, #item3, #item4 {
+  flex: 1 1 300px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+footer {
+  margin-top: auto;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+}
+
+#contactForm + table {
+  margin: 20px auto;
+  width: 80%;
+  max-width: 500px;
+}
